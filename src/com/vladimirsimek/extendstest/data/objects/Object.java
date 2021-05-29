@@ -4,11 +4,11 @@ public class Object {
     private double area;
     private double perimeter;
 
-    public double getVolume() {
+    public double getArea() {
         return area;
     }
 
-    public void setVolume(double area) {
+    public void setArea(double area) {
         this.area = area;
     }
 

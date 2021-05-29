@@ -8,7 +8,7 @@ public class Rectangle extends Object{
         this.length = length;
         this.height = height;
         this.setPerimeter(countPerimeter(length, height));
-        this.setVolume(countVolume(length, height));
+        this.setArea(countVolume(length, height));
     }
 
     public double countVolume(double length, double height) {
