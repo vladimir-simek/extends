@@ -1,4 +1,4 @@
 package com.vladimirsimek.extendstest.data.objects;
 
-public class Square {
+public class Square g{
 }
