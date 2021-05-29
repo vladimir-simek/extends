@@ -21,7 +21,7 @@ public class Logic {
     public static ArrayList<String> getInput() {
         ArrayList<String> input = new ArrayList<>();
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader("/home/vladimirsimek/Projects/JetBrains/IntelliJ/extends/src/com/vladimirsimek/extendstest/data/input.txt"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("src/com/vladimirsimek/extendstest/data/input.txt"));
 
             String line = bufferedReader.readLine();
             while (line != null) {
