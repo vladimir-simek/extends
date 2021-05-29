@@ -1,4 +1,5 @@
 package com.vladimirsimek.extendstest.data.objects;
 
-public class Triangle {
+public class Triangle extends  Object{
+
 }

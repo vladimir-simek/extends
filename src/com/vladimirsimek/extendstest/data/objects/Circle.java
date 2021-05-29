@@ -10,11 +10,11 @@ public class Circle extends Object {
     }
 
     public double countPerimeter(double radius) {
-        return 2 * 3.14 * radius;
+        return 2 * 3.14159265359 * radius;
     }
 
     public double countArea(double radius) {
-        return (3.14) * radius;
+        return 3.14159265359 * radius;
     }
 
     public double getRadius() {
@@ -23,5 +23,9 @@ public class Circle extends Object {
 
     public void setRadius(double radius) {
         this.radius = radius;
+    }
+
+    public double getDiameter() {
+        return 2*getRadius();
     }
 }
